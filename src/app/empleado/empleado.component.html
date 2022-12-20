@@ -1,10 +1,10 @@
 <p>Nombre : {{nombre}}</p>
 <p>Apellido : {{apellido}}</p>
 <p>Edad : {{edad<18 ? "Eres menor de edad" : "Eres mayor de edad"}}</p>
-<p>Empresa : {{empresa.value}}</p>
+<p>Empresa : {{empresa}}</p>
 
-Introduce la empresa : <input type="text" #empresa (keyup)="0" [disabled]="habilitacionCuadro">
-
+<!--Introduce la empresa : <input type="text" #empresa (keyup)="0" [disabled]="habilitacionCuadro"> -->
+Introduce la empresa : <input type="text" [(ngModel)]="empresa" >
 <br>
 <br>
 

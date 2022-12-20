@@ -12,7 +12,8 @@ export class EmpleadoComponent {
 
   edad=18;
 
-  //empresa="Píldoras Informaticas";
+  empresa="Google";
+
 
 habilitacionCuadro=false;
 
